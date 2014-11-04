@@ -8,12 +8,12 @@ Package.describe({
 Package.on_use(function(api) {
     api.versionsFrom('1.0');
 
-    api.use(['underscore', 'random']);
-    api.use('accounts-base', ['client', 'server']);
+    api.use(['underscore@1.0.1', 'random@1.0.1']);
+    api.use('accounts-base@1.1.2', ['client', 'server']);
     // Export Accounts (etc) to packages using this one.
     api.imply('accounts-base', ['client', 'server']);
-    api.use('accounts-oauth', ['client', 'server']);
-    api.use('steam', ['client', 'server']);
+    api.use('accounts-oauth@1.1.2', ['client', 'server']);
+    api.use('kidovate:steam@1.0.0', ['client', 'server']);
 
     api.add_files('steam_login_button.css', 'client');
 
