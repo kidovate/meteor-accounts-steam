@@ -2,7 +2,8 @@ Package.describe({
     name: "kidovate:accounts-steam",
     summary: "Login service for Steam.",
     version: '1.0.1',
-    git: 'https://github.com/paralin/accounts-steam.git'
+    git: 'https://github.com/paralin/accounts-steam.git',
+    documentation: null
 });
 
 Package.on_use(function(api) {
