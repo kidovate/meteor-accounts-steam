@@ -14,7 +14,7 @@ Package.on_use(function(api) {
     // Export Accounts (etc) to packages using this one.
     api.imply('accounts-base', ['client', 'server']);
     api.use('accounts-oauth@1.1.2', ['client', 'server']);
-    api.use('kidovate:steam@1.0.1', ['client', 'server']);
+    api.use('kidovate:steam@1.1.0', ['client', 'server']);
 
     api.add_files('steam_login_button.css', 'client');
 
